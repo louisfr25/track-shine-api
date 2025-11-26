@@ -18,8 +18,9 @@ const allowedOrigins = [
   "http://localhost:3000",
   "http://localhost:3001",
   "http://localhost:5173",
-  "https://2livesupply.fr", // Domaine de production
-  process.env.FRONTEND_URL // Permet de configurer dynamiquement
+  "https://shine-track.fr",
+  "https://www.shine-track.fr",
+  process.env.FRONTEND_URL 
 ].filter(Boolean);
 
 // Strict CORS: only allow requests that include an Origin header and
